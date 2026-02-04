@@ -1,0 +1,30 @@
+# Professional .gitignore for GSDB
+# Executables
+gsdb
+gs_server
+test_runner
+bench_runner
+hello
+unity_build
+
+# Database & Heap Files (Noise)
+*.gs
+*.heap
+*.hidx
+compact*
+vacuum_tmp*
+test_life*
+test_vac*
+test_edge*
+
+# Object Files & Dependencies
+*.o
+*.d
+*.so
+*.a
+
+# OS & Environment
+.DS_Store
+*.dSYM/
+.tmp/
+build_artifacts/
