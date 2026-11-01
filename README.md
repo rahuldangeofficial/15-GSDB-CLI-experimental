@@ -1,6 +1,8 @@
 # GSDB
 **Geometric Storage Database**
 
+[![build](https://img.shields.io/github/actions/workflow/status/rahuldangeofficial/15-GSDB-CLI-experimental/ci.yml?branch=main&style=flat-square&label=build)](https://github.com/rahuldangeofficial/15-GSDB-CLI-experimental/actions/workflows/ci.yml)
+
 GSDB is a high-performance, embedded document database powered by a constant-time geometric engine. It utilizes Space-Filling Curves (SFC) to map 4D coordinates directly to physical disk offsets, enabling **O(1)** lookups regardless of dataset size.
 
 ![CLI Session](assets/demo_cli.png)

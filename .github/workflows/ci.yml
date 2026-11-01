@@ -1,0 +1,19 @@
+# Builds the GSDB shell and server on every push.
+name: CI
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    name: Build shell and server
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v7
+      - name: Build
+        run: make all
